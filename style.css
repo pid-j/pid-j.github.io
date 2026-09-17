@@ -1,0 +1,25 @@
+html, head, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 8px 8px 8px 8px;
+  padding: 0;
+  background: var(--primary-color);
+  overflow: hidden;
+
+  --primary-color: #001194;
+  --secondary-color: #ffffff;
+}
+
+pre, pre a, ul, ul li, ul li a {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', Calibri, sans-serif;
+  color: var(--secondary-color);
+  padding: 0;
+}
+
+pre {
+  margin: 0 0 0 -1em;
+}
+
+ul {
+  margin: -1em 0 1em 2.5em;
+}
